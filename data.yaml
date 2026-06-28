@@ -1,0 +1,13 @@
+# Dataset configuration for PPE-Detection-YOLOv11.
+
+path: dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: helmet
+  1: vest
+  2: mask
+  3: person
+
