@@ -1,13 +1,16 @@
-# Dataset configuration for PPE-Detection-YOLOv11.
+train: dataset/css-data/train/images
+val: dataset/css-data/valid/images
+test: dataset/css-data/test/images
 
-path: dataset
-train: images/train
-val: images/val
-test: images/test
-
+nc: 10
 names:
-  0: helmet
-  1: vest
-  2: mask
-  3: person
-
+  - Hardhat
+  - Mask
+  - NO-Hardhat
+  - NO-Mask
+  - NO-Safety Vest
+  - Person
+  - Safety Cone
+  - Safety Vest
+  - machinery
+  - vehicle
