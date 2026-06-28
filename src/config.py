@@ -1,2 +1,17 @@
-# Shared project configuration for PPE detection scripts.
+
+MODEL_NAME="yolo11n.pt"
+
+DATA_YAML="data.yaml"
+
+EPOCHS=50
+
+IMAGE_SIZE=640
+
+BATCH_SIZE=32
+
+DEVICE=0
+
+PROJECT_NAME = "runs"
+
+RUN_NAME = "yolo11n_ppe"
 
