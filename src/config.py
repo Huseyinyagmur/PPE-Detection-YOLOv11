@@ -1,5 +1,5 @@
 
-MODEL_NAME="yolo11n.pt"
+MODEL_NAME="yolo11s.pt"
 
 DATA_YAML="data.yaml"
 
@@ -13,7 +13,7 @@ DEVICE=0
 
 PROJECT_NAME = ".runs"
 
-RUN_NAME = "yolo11n_ppe"
+RUN_NAME = "yolo11s_ppe"
 
 WORKERS = 0
 CACHE = False
