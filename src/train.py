@@ -7,7 +7,9 @@ from config import (
     BATCH_SIZE,
     DEVICE,
     PROJECT_NAME,
-    RUN_NAME
+    RUN_NAME,
+    CACHE,
+    WORKERS
 )
 if __name__ == "__main__":
     model=YOLO(MODEL_NAME)
@@ -19,5 +21,7 @@ if __name__ == "__main__":
         imgsz=IMAGE_SIZE,
         device=DEVICE,
         project=PROJECT_NAME,
-        name=RUN_NAME
+        name=RUN_NAME,
+        workers=WORKERS,
+        cache=CACHE
     )
