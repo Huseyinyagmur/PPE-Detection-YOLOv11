@@ -23,3 +23,5 @@ BEST_MODEL_PATH = "models/best.pt"
 SOURCE_IMAGE = "dataset/css-data/test/images"
 
 CONF_THRESHOLD = 0.25
+
+WEBCAM_SOURCE=0
