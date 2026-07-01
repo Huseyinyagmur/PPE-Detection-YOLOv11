@@ -25,3 +25,4 @@ SOURCE_IMAGE = "dataset/css-data/test/images"
 CONF_THRESHOLD = 0.25
 
 WEBCAM_SOURCE=0
+WINDOW_NAME = "PPE Detection"
