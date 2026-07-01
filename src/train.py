@@ -13,7 +13,6 @@ from config import (
 )
 if __name__ == "__main__":
     model=YOLO(MODEL_NAME)
-
     model.train(
         epochs=EPOCHS,
         batch=BATCH_SIZE,
@@ -23,5 +22,6 @@ if __name__ == "__main__":
         project=PROJECT_NAME,
         name=RUN_NAME,
         workers=WORKERS,
-        cache=CACHE
+        cache=CACHE,
+        resume=True
     )

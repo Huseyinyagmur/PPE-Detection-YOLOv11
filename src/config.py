@@ -1,5 +1,5 @@
 
-MODEL_NAME="yolo11s.pt"
+MODEL_NAME = r"C:\Users\husey\runs\detect\.runs\yolo11s_ppe-2\weights\last.pt"
 
 DATA_YAML="data.yaml"
 
@@ -17,3 +17,9 @@ RUN_NAME = "yolo11s_ppe"
 
 WORKERS = 0
 CACHE = False
+
+BEST_MODEL_PATH = "models/best.pt"
+
+SOURCE_IMAGE = "dataset/css-data/test/images"
+
+CONF_THRESHOLD = 0.25
